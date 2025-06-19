@@ -9,9 +9,12 @@
 <body>
 
   <header class="hero-section">
-    <h1 class="fade-in">Hi, I'm <span>Krisztián Gombos</span></h1>
-    <p class="fade-in delay-1">Full-stack developer, digital craftsman, lifelong learner.</p>
-    <a href="#about" class="btn fade-in delay-2">View My Work</a>
+    <div id="tsparticles"></div>
+    <div class="hero-content">
+      <h1 class="fade-in-on-scroll delay-0">Hi, I'm <span>Krisztián Gombos</span></h1>
+      <p class="fade-in-on-scroll delay-1">Full-stack developer, digital craftsman, lifelong learner.</p>
+      <a href="#about" class="btn fade-in-on-scroll delay-2">View My Work</a>
+    </div>
   </header>
 
   <section id="about" class="section slide-up">
@@ -41,9 +44,10 @@
       <li>PostgreSQL</li>
       <li>MySQL</li>
       <li>Docker</li>
-      <li>CI/CD</li>
-      <li>GraphQL</li>
-      <li>HTML/CSS</li>
+      <li>AWS (EC2, S3)</li>
+      <li>Jira / Confluence</li>
+      <li>Scrum / Kanban</li>
+      <li>Unit Testing</li>
     </ul>
   </section>
 
@@ -75,12 +79,12 @@
   <section class="section slide-up alt-bg">
     <h2>Projects</h2>
     <div class="projects">
-      <div class="project-card fade-in">
+      <div class="project-card fade-in-on-scroll delay-0">
         <h3>Crypto Market Visualizer</h3>
         <p>Interactive dashboard using Python, JavaScript, and CoinMarketCap API</p>
         <a href="https://github.com/gombos14" target="_blank">View on GitHub</a>
       </div>
-      <div class="project-card fade-in delay-1">
+      <div class="project-card fade-in-on-scroll delay-1">
         <h3>Task Manager App</h3>
         <p>Full-stack productivity web app built with React and Firebase</p>
         <a href="https://github.com/gombos14" target="_blank">View on GitHub</a>
@@ -90,10 +94,14 @@
 
   <footer class="section slide-up">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:krisztian_gombos@outlook.hu">krisztian_gombos@outlook.hu</a> | Phone: (+40) 0770428945</p>
-    <p>Location: Cluj-Napoca, Romania</p>
+    <p>Email: <a href="mailto:krisztian_gombos@outlook.hu">krisztian_gombos@outlook.hu</a> | Phone: (+40) 0747 453 585</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/krisztian-gombos/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/gombos14" target="_blank">GitHub</a>
+    </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
   <script src="scripts.js"></script>
 </body>
 </html>
