@@ -11,13 +11,14 @@
   <header class="hero-section">
     <div id="tsparticles"></div>
     <div class="hero-content">
-      <h1 class="fade-in-on-scroll delay-0">Hi, I'm <span>Krisztián Gombos</span></h1>
-      <p class="fade-in-on-scroll delay-1">Full-stack developer, digital craftsman, lifelong learner.</p>
-      <a href="#about" class="btn fade-in-on-scroll delay-2">View My Work</a>
+      <img class="profile-pic fade-in-on-scroll delay-0" src="Krisztian.jpg" alt="Krisztián Gombos Profile Picture">
+      <h1 class="fade-in-on-scroll delay-1">Hi, I'm <span>Krisztián Gombos</span></h1>
+      <p class="fade-in-on-scroll delay-2">Full-stack developer, digital craftsman, lifelong learner.</p>
+      <a href="#about" class="btn fade-in-on-scroll delay-3">View My Work</a>
     </div>
   </header>
 
-  <section id="about" class="section slide-up">
+  <section id="about" class="section fade-in-on-scroll">
     <h2>About Me</h2>
     <p>
       Ever since I typed my first <code>print("Hello World")</code>, I’ve been fascinated by what lies beneath the surface of machines.
@@ -32,17 +33,65 @@
     </p>
   </section>
 
-  <section class="section slide-up alt-bg">
+  <section id="languages" class="section fade-in-on-scroll alt-bg">
+    <h2>Language Skills</h2>
+    <div class="language-skill">
+      <h3>Mother tongue(s)</h3>
+      <p>Hungarian, Romanian </p>
+    </div>
+    <div class="language-skill">
+      <h3>Other language(s)</h3>
+      <div class="other-languages">
+        <h4>German</h4>
+        <ul>
+          <li>LISTENING B2</li>
+          <li>READING C1</li>
+          <li>WRITING C1</li>
+          <li>SPOKEN PRODUCTION C1</li>
+          <li>SPOKEN INTERACTION C1</li>
+        </ul>
+        <h4>English</h4>
+        <ul>
+          <li>LISTENING B2</li>
+          <li>READING B2</li>
+          <li>WRITING B2</li>
+          <li>SPOKEN PRODUCTION B2</li>
+          <li>SPOKEN INTERACTION B2</li>
+        </ul>
+        <p class="small-text">Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section fade-in-on-scroll">
+    <h2>Education and Training</h2>
+    <div class="education-item">
+      <h3>High School Diploma</h3>
+      <p class="university">Colegiul National "Silvania"</p>
+      <p class="dates">2014 – 2019 | Zalau, Romania </p>
+    </div>
+    <div class="education-item">
+      <h3>Computer Science (German)</h3>
+      <p class="university">Babes-Bolyai University - Faculty of Mathematics and Computer Science</p>
+      <p class="dates">2019 – 2024 | Cluj-Napoca, Romania </p>
+    </div>
+    <div class="education-item">
+      <h3>Master in Data Science</h3>
+      <p class="university">Babes-Bolyai University - Faculty of Mathematics and Computer Science</p>
+      <p class="dates">2024 – Current | Cluj-Napoca, Romania </p>
+    </div>
+  </section>
+
+  <section class="section fade-in-on-scroll alt-bg">
     <h2>Skills</h2>
     <ul class="skills-grid">
       <li>Python</li>
-      <li>JavaScript</li>
-      <li>TypeScript</li>
-      <li>Django</li>
-      <li>Spring Boot</li>
-      <li>Angular</li>
-      <li>PostgreSQL</li>
-      <li>MySQL</li>
+      <li>Django / DRF</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React.js</li>
+      <li>HTML5 / CSS3</li>
+      <li>SQL / PostgreSQL</li>
+      <li>Git / GitHub</li>
       <li>Docker</li>
       <li>AWS (EC2, S3)</li>
       <li>Jira / Confluence</li>
@@ -51,8 +100,18 @@
     </ul>
   </section>
 
-  <section class="section slide-up">
-    <h2>Experience</h2>
+  <section class="section fade-in-on-scroll">
+    <h2>Experience</h2> 
+    <div class="job">
+      <h3>Intern</h3>
+      <p class="company">MSG Systems Romania | Jul 2021 – Aug 2021 | Cluj-Napoca, Romania</p>
+      <ul>
+        <li>Introduced to Java, Spring, Maven, and JPA</li>
+        <li>Worked with Oracle SQL Developer, Postman, NodeJS</li>
+        <li>Contributed to frontend using Angular and JavaScript</li>
+        <li>Practiced Agile (Scrum), Kanban and teamwork methodologies</li>
+      </ul>
+    </div>
     <div class="job">
       <h3>Software Developer</h3>
       <p class="company">Jibe Dot Company | 2022 – Present | Cluj-Napoca, Romania</p>
@@ -64,19 +123,9 @@
         <li>Maintaining clean, testable code with Unit & Integration Testing</li>
       </ul>
     </div>
-    <div class="job">
-      <h3>Intern</h3>
-      <p class="company">MSG Systems Romania | Jul 2021 – Aug 2021 | Cluj-Napoca</p>
-      <ul>
-        <li>Introduced to Java, Spring, Maven, and JPA</li>
-        <li>Worked with Oracle SQL Developer, Postman, NodeJS</li>
-        <li>Contributed to frontend using Angular and JavaScript</li>
-        <li>Practiced Agile (Scrum), Kanban and teamwork methodologies</li>
-      </ul>
-    </div>
   </section>
 
-  <section class="section slide-up alt-bg">
+  <section id="projects" class="section fade-in-on-scroll alt-bg">
     <h2>Projects</h2>
     <div class="projects">
       <div class="project-card fade-in-on-scroll delay-0">
@@ -92,11 +141,38 @@
     </div>
   </section>
 
-  <footer class="section slide-up">
+  <section id="volunteering" class="section fade-in-on-scroll">
+    <h2>Volunteering</h2>
+    <div class="volunteering-item">
+      <h3>Finger-travelling - Erasmus+</h3>
+      <p class="organization">Slavnovice, Czech Republic</p>
+      <p class="dates">23/08/2021 – 02/09/2021 </p>
+      <ul>
+        <li>A Youth Exchange with young people from Czech Republic, Greece, Romania, and Spain. </li>
+        <li>Aim was to let participants get to know more about other cultures as well as their own, break down stereotypes and learn to live in diversity. </li>
+        <li>Participants also learned to prepare activities for others, cook for the group and cooperate in a team. </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hobbies" class="section fade-in-on-scroll alt-bg">
+    <h2>Hobbies and Interests</h2>
+    <ul class="hobbies-list">
+      <li>Refereeing soccer, assistant referee </li>
+      <li>Soccer </li>
+      <li>Ski </li>
+      <li>Social Dances </li>
+      <li>Chess </li>
+      <li>Cycling </li>
+    </ul>
+  </section>
+
+  <footer class="section fade-in-on-scroll">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:krisztian_gombos@outlook.hu">krisztian_gombos@outlook.hu</a> | Phone: (+40) 0747 453 585</p>
+    <p>Email: <a href="mailto:krisztian_gombos@outlook.hu">krisztian_gombos@outlook.hu</a> | Phone: (+40) 0770428945 </p>
+    <p>Location: Cluj-Napoca, Romania</p>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/krisztian-gombos/" target="_blank">LinkedIn</a> |
+      <a href="www.linkedin.com/in/krisztian-gombos-26a21020a" target="_blank">LinkedIn</a> |
       <a href="https://github.com/gombos14" target="_blank">GitHub</a>
     </div>
   </footer>
