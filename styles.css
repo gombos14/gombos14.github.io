@@ -273,6 +273,7 @@ h1, h2 {
   padding: 1.5rem;
   text-align: left;
   transition: transform 0.3s ease-in-out;
+  min-height: 200px;
 }
 
 .project-card:hover {
@@ -294,6 +295,8 @@ h1, h2 {
   color: var(--accent);
   text-decoration: none;
   font-weight: bold;
+  position: absolute;
+  bottom: 1.5rem;
 }
 
 .project-card a:hover {
